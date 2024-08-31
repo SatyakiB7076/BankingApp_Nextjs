@@ -10,6 +10,9 @@ const TotalBalanceBox = ({accounts=[],totalBanks,totalCurrentBalance}:TotlaBalan
         <h2 className='header-2'>
             Bank Accounts :{totalBanks}
         </h2>
+        <div className='flex-col flex gap-2'>
+            <p className="total-balance-label">t</p>
+        </div>
       </div>
     </section>
   )
