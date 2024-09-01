@@ -50,11 +50,14 @@ const MobileNav = ({ user }: MobileNavProps) => {
                                             <p className={cn('text-16 font-semibold text-black-2', { '!text-white': isActive })}>{item.label}</p>
                                         </Link>
                                         </SheetClose>
+                                        
                                     )
                                 }
                                 )}
+                                USER
                             </nav>
                         </SheetClose>
+                        FOOTER
                     </div>
                 </SheetContent>
             </Sheet>
